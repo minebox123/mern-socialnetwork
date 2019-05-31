@@ -18,7 +18,7 @@ const ProfileSchema = new Schema({
   website: {
     type: String
   },
-  lacation: {
+  location: {
     type: String
   },
   status: {
@@ -32,7 +32,7 @@ const ProfileSchema = new Schema({
   bio: {
     type: String
   },
-  githubUserName: {
+  githubUsername: {
     type: String
   },
   experience: [
